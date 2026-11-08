@@ -27,6 +27,7 @@ import { GithubActivity } from "@/sections/GithubActivity";
 
 import { WritingPage } from "@/pages/WritingPage";
 import { ContactPage } from "./pages/ContactPage";
+import { CertificationsPage } from "@/pages/CertificationsPage";
 import { ExperimentsPage } from "@/pages/ExperimentsPage";
 import { MemoryBoxPage } from "@/pages/experiments/MemoryBoxPage";
 import VendingMachine from "./pages/experiments/VendingMachine";
@@ -43,6 +44,7 @@ const VALID_ROUTES = [
   "/experience",
   "/contact",
   "/writing",
+  "/certifications",
   "/experiments",
   "/experiments/memory-box",
   "/experiments/vending-machine",
@@ -187,6 +189,11 @@ function AppContent() {
           <Route path="/contact" element={<ContactPage />} />
 
           <Route path="/writing" element={<WritingPage />} />
+
+          <Route
+            path="/certifications"
+            element={<CertificationsPage />}
+          />
 
           <Route
             path="/experiments"

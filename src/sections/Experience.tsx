@@ -1,9 +1,9 @@
 
 import { motion } from "framer-motion";
-import { useLocation } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 import { Shell, SectionHeader } from "@/components/Layout";
 import { site } from "@/config/site";
-import { ExternalLink } from "lucide-react";
+import { ExternalLink, Award, GraduationCap, ArrowUpRight } from "lucide-react";
 
 export function Experience({ isDetailed }: { isDetailed?: boolean }) {
   const location = useLocation();
@@ -199,6 +199,89 @@ export function Experience({ isDetailed }: { isDetailed?: boolean }) {
               </div>
             </motion.div>
           )}
+
+        {/* Education & Certifications Section */}
+        {isExperiencePage && (
+          <>
+            {/* Certifications Block */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-50px" }}
+              transition={{ duration: 0.4 }}
+              className="border-t border-[var(--line)] px-6 py-8 sm:px-8"
+            >
+              <div className="mb-5 flex items-center justify-between">
+                <div className="flex items-center gap-2">
+                  <Award className="h-4 w-4 text-[var(--accent)]" />
+                  <h3 className="font-mono text-xs uppercase tracking-wider text-[var(--fg)]">
+                    Certifications
+                  </h3>
+                </div>
+                <Link
+                  to="/certifications"
+                  className="flex items-center gap-1 font-mono text-[11px] text-[var(--muted)] hover:text-[var(--fg)] transition-colors"
+                >
+                  View Details <ArrowUpRight className="h-3 w-3" />
+                </Link>
+              </div>
+
+              <div className="grid gap-3 sm:grid-cols-2">
+                {site.certifications.map((cert) => (
+                  <div
+                    key={cert.name}
+                    className="rounded-lg border border-[var(--line)] bg-[var(--card)] p-4 transition-colors hover:border-[var(--line-active)]"
+                  >
+                    <span className="font-mono text-[10px] uppercase tracking-wider text-[var(--muted)] block">
+                      {cert.issuer}
+                    </span>
+                    <h4 className="mt-1 text-[13.5px] font-medium text-[var(--fg)]">
+                      {cert.name}
+                    </h4>
+                  </div>
+                ))}
+              </div>
+            </motion.div>
+
+            {/* Education Block */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-50px" }}
+              transition={{ duration: 0.4 }}
+              className="border-t border-[var(--line)] px-6 py-8 sm:px-8"
+            >
+              <div className="mb-5 flex items-center gap-2">
+                <GraduationCap className="h-4 w-4 text-[var(--accent)]" />
+                <h3 className="font-mono text-xs uppercase tracking-wider text-[var(--fg)]">
+                  Education
+                </h3>
+              </div>
+
+              <div className="space-y-3">
+                {site.education.map((edu) => (
+                  <div
+                    key={edu.institution}
+                    className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between rounded-lg border border-[var(--line)] bg-[var(--card)] p-4 transition-colors hover:border-[var(--line-active)]"
+                  >
+                    <div>
+                      <h4 className="text-[13.5px] font-medium text-[var(--fg)]">
+                        {edu.institution}
+                      </h4>
+                      <p className="text-xs text-[var(--muted)]">{edu.degree}</p>
+                    </div>
+                    <div className="flex items-center gap-3 font-mono text-[11px] text-[var(--muted)]">
+                      <span className="rounded bg-[var(--chip)] border border-[var(--line)] px-2 py-0.5 text-[var(--accent)] font-medium">
+                        {edu.score}
+                      </span>
+                      <span>{edu.period}</span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </motion.div>
+          </>
+        )}
       </Shell>
     </div>
   );

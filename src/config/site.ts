@@ -20,6 +20,22 @@ export type Job = {
   url?: string;
 };
 
+export type Education = {
+  institution: string;
+  degree: string;
+  period: string;
+  score: string;
+  location?: string;
+};
+
+export type Certification = {
+  name: string;
+  issuer: string;
+  year?: string;
+  badge?: string;
+  url?: string;
+};
+
 export type FreelanceProject = {
   title: string;
   category: string;
@@ -314,6 +330,61 @@ export const site = {
     "GitHub Copilot",
     "Kiro",
   ],
+
+  // =========================================================
+  // EDUCATION
+  // =========================================================
+
+  education: [
+    {
+      institution: "Vellore Institute of Technology, Amaravathi",
+      degree: "B.Tech in Computer Science and Engineering",
+      period: "2022 – 2026",
+      score: "CGPA: 8.68",
+      location: "Amaravathi, India",
+    },
+    {
+      institution: "Shastra Junior College",
+      degree: "Intermediate (MPC)",
+      period: "2020 – 2022",
+      score: "Percentage: 95.6%",
+      location: "India",
+    },
+    {
+      institution: "Jai Bharath High School",
+      degree: "Secondary School Certificate (SSC)",
+      period: "2019 – 2020",
+      score: "Percentage: 99%",
+      location: "India",
+    },
+  ] as Education[],
+
+  // =========================================================
+  // CERTIFICATIONS
+  // =========================================================
+
+  certifications: [
+    {
+      name: "AWS Certified Cloud Practitioner (CCP)",
+      issuer: "Amazon Web Services (AWS)",
+      year: "2024",
+    },
+    {
+      name: "MongoDB Database Administrator",
+      issuer: "MongoDB University",
+      year: "2024",
+    },
+    {
+      name: "Oracle Cloud Infrastructure 2024 Generative AI Professional",
+      issuer: "Oracle",
+      year: "2024",
+    },
+    {
+      name: "Claude Certified Developer - Foundations",
+      issuer: "Anthropic",
+      year: "2024",
+    },
+  ] as Certification[],
 
   // =========================================================
   // WRITING

@@ -17,7 +17,7 @@ import {
   Mail,
   Briefcase,
   GitMerge,
-  FlaskConical
+  Award,
 } from "lucide-react";
 import { GitHubIcon } from "./icons";
 
@@ -106,13 +106,13 @@ export function CommandPalette({
       },
     },
     {
-      id: "nav-experiments",
+      id: "nav-certifications",
       category: "navigation",
-      title: "Go to Experiments",
-      subtitle: "Interactive demos, prototypes, and creative builds",
-      icon: <FlaskConical size={16} />,
+      title: "Go to Certifications & Education",
+      subtitle: "Certifications, credentials, degrees, and academic records",
+      icon: <Award size={16} />,
       action: () => {
-        navigate("/experiments");
+        navigate("/certifications");
         handleClose();
       },
     },
