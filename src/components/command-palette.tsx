@@ -182,17 +182,21 @@ export function CommandPalette({
         handleClose();
       },
     },
-    {
-      id: "action-medium",
-      category: "actions",
-      title: "Open Medium Profile",
-      subtitle: "https://medium.com/@harshuraghu7999",
-      icon: <BookOpen size={16} />,
-      action: () => {
-        window.open((site.socials as any).medium, "_blank");
-        handleClose();
-      },
-    },
+    ...(site.socials.medium
+      ? [
+          {
+            id: "action-medium",
+            category: "actions" as const,
+            title: "Open Medium Profile",
+            subtitle: site.socials.medium,
+            icon: <BookOpen size={16} />,
+            action: () => {
+              window.open(site.socials.medium, "_blank");
+              handleClose();
+            },
+          },
+        ]
+      : []),
     {
       id: "action-copy-email",
       category: "actions",

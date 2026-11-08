@@ -46,22 +46,22 @@ const hoverCardsData: Record<
   }
 > = {
   github: {
-    handle: "@harshit403-pixel",
-    bio: "Full Stack Developer building modern web applications, backend systems, and AI-powered products.",
-    stats: ["Full Stack Developer", "Open Source"],
+    handle: `@${site.github.username}`,
+    bio: site.tagline,
+    stats: [site.role, "Open Source"],
     bannerText: "build • learn • ship",
   },
 
   linkedin: {
     pronouns: "He/Him",
-    handle: "in/harshit-raghuwanshi-278243281",
-    bio: "Full Stack Developer interested in backend engineering, system design, AI, and building real-world software products.",
+    handle: "in/sai-krishna-reddy-devloper",
+    bio: "Specialist Programmer L1 at Infosys building Spring Boot, Spring AI, and React full-stack applications.",
     stats: ["Software Engineering", "Open to Opportunities"],
     bannerText: "connect • build • grow",
   },
 
   email: {
-    handle: "YOUR_EMAIL@gmail.com",
+    handle: site.email,
     bio: "Feel free to reach out for software engineering opportunities, collaborations, projects, or technical discussions.",
     stats: ["Direct Contact", "Open to Opportunities"],
     bannerText: "connect • collaborate • build",
@@ -69,7 +69,7 @@ const hoverCardsData: Record<
 
   resume: {
     handle: "Curriculum Vitae",
-    bio: "My resume covering my software engineering skills, projects, experience, education, and achievements.",
+    bio: "My resume covering my software engineering skills, projects, experience, education, and certifications.",
     stats: ["Skills", "Projects", "Experience"],
     bannerText: "skills • projects • experience",
   },

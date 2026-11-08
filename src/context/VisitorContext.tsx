@@ -19,11 +19,11 @@ export function VisitorProvider({
   useEffect(() => {
     const fetchCount = async () => {
       // Your own visitor counter key
-      const KEY = "harshit_portfolio_views";
+      const KEY = "saikrishna_portfolio_views";
 
       // Count only once per browser session
       const hasVisited = sessionStorage.getItem(
-        "harshit_portfolio_visited"
+        "saikrishna_portfolio_visited"
       );
 
       const endpoint = hasVisited ? "get" : "hit";
@@ -32,7 +32,7 @@ export function VisitorProvider({
 
       try {
         if (!hasVisited) {
-          sessionStorage.setItem("harshit_portfolio_visited", "true");
+          sessionStorage.setItem("saikrishna_portfolio_visited", "true");
         }
 
         const res = await fetch(url);

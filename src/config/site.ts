@@ -53,11 +53,11 @@ export const site = {
   // PERSONAL INFORMATION
   // =========================================================
 
-  name: "Harshit Raghuwanshi",
+  name: "Sai Krishna Reddy",
 
-  firstName: "Harshit",
+  firstName: "Sai Krishna",
 
-  url: "https://harshits-portfolio.vercel.app",
+  url: "https://www.saikrishnareddy.dev",
 
   quote: {
     text: "The best way to predict the future is to build it.",
@@ -73,38 +73,40 @@ export const site = {
 
   socialBannerImage: "/social-banner.gif",
 
-  initials: "HR",
+  initials: "SKR",
 
-  role: "Full Stack Developer",
+  role: "Java Full Stack Developer",
 
-  location: "Bhopal, India",
+  location: "Mysuru, India",
 
   timezone: "Asia/Kolkata",
 
-  email: "harshuraghu7999@gmail.com",
+  email: "krishnareddy1604k@gmail.com",
 
-  greeting: "Hey, I'm Harshit", 
+  phone: "+91 7569007408",
+
+  greeting: "Hey, I'm Sai Krishna",
 
   tagline:
-    "I build modern full-stack applications, scalable backend systems, and AI-powered products.",
+    "Java Full Stack Developer building Spring Boot and React applications, REST APIs, and AI-powered backend systems.",
 
   // =========================================================
   // ABOUT
   // =========================================================
 
   about: [
-    "I'm Harshit Raghuwanshi, a Full Stack Developer who enjoys building products that combine clean interfaces, solid backend architecture, and real-world functionality.",
+    "I'm Sai Krishna Reddy, a Specialist Programmer L1 — Java Full Stack Developer Trainee at Infosys with hands-on experience building Spring Boot and React.js applications, REST APIs, and AI-powered backend features.",
 
-    "I work primarily with React, Next.js, Node.js, Express, MongoDB, TypeScript, Docker, and modern AI tooling. I enjoy taking an idea from the initial concept all the way to a deployed product.",
+    "I work across Java 21, Spring Boot, Spring AI, React.js, TypeScript, Node.js, Express.js, MySQL, MariaDB, MongoDB, and RabbitMQ, and I'm trained in microservices architecture, AWS, Docker, and CI/CD workflows.",
 
-    "I've built applications involving authentication, REST APIs, real-time systems, AI integrations, databases, DevOps, and developer-focused tools. I'm particularly interested in backend engineering, system design, and building products that actually solve problems.",
+    "I hold a B.Tech in Computer Science from Vellore Institute of Technology, Amaravathi (CGPA: 8.68) and am certified as an AWS Certified Cloud Practitioner, MongoDB Database Administrator, Oracle OCI Generative AI Professional, and Anthropic Claude Certified Developer.",
   ],
 
   tldr: [
-    "Building full-stack products.",
-    "Exploring backend engineering.",
-    "Building AI-powered applications.",
-    "Learning system design.",
+    "Specialist Programmer L1 at Infosys.",
+    "Building Spring Boot, Spring AI & React apps.",
+    "AWS, MongoDB, Oracle OCI & Anthropic Certified.",
+    "B.Tech CS @ VIT Amaravathi (8.68 CGPA).",
   ],
 
   // =========================================================
@@ -117,10 +119,10 @@ export const site = {
     availableText: "open to software engineering opportunities",
 
     nowLearning:
-      "DSA • System Design • Backend Engineering • DevOps",
+      "Spring AI • Microservices • System Design • AWS & Cloud Native",
 
     nowBuilding:
-      "Developer-focused products",
+      "AI-powered full-stack & Spring Boot applications",
 
     nowListening:
       "focus playlists",
@@ -132,19 +134,19 @@ export const site = {
 
   socials: {
     github:
-      "https://github.com/harshit403-pixel",
+      "https://github.com/krishnareddy756",
 
     twitter:
-      "https://twitter.com/hrstwt",
+      "",
 
     linkedin:
-      "https://www.linkedin.com/in/harshit-raghuwanshi-278243281/",
+      "https://www.linkedin.com/in/sai-krishna-reddy-devloper/",
 
     email:
-      "mailto:harshuraghu7999@gmail.com",
+      "mailto:krishnareddy1604k@gmail.com",
 
     resume:
-      "https://drive.google.com/file/d/18u23i7ERgLpsvjb0ykOrbrsDEiKj-Lgx/view?usp=sharing",
+      "#",
 
     discord:
       "",
@@ -157,30 +159,19 @@ export const site = {
   // EXPERIENCE
   // =========================================================
 
-experience: [
-  {
-    company: "Not Your College",
-    role: "Web Developer Mentor",
-    period: "1 September 2026 – Present",
-    blurb:
-      "Mentoring learners in web development by helping them build a strong understanding of modern frontend and backend technologies. Guiding them through practical projects, debugging, code structure, API integration, responsive UI development, and real-world software engineering workflows while helping them improve their problem-solving and development practices.",
-    url: "https://notyourcollege.com/",
-  },
-  {
-    company: "Ethara AI",
-    role: "Post-LLM Training Intern",
-    period: "15 April 2026 – 14 May 2026",
-    blurb:
-      "Worked on post-LLM training workflows focused on preparing, reviewing, and improving AI training data. Contributed to data evaluation and quality improvement processes while working with structured workflows designed to help improve the reliability and performance of AI models.",
-    url: "https://www.ethara.ai/",
-  },
-] as Job[],
+  experience: [
+    {
+      company: "Infosys",
+      role: "Specialist Programmer L1 — Java Full Stack Developer Trainee",
+      period: "Jun 2026 – Present",
+      blurb:
+        "Building full-stack applications with Spring Boot and React.js using layered architecture and REST APIs. Adding LLM-powered backend features to Spring Boot applications using Spring AI and implementing asynchronous messaging and event-based integration with RabbitMQ. Integrating frontend and backend modules, resolving application issues, and utilizing Docker, AWS, Git, and GitHub across deployment exercises and collaborative Agile workflows.",
+      url: "https://www.infosys.com/",
+    },
+  ] as Job[],
 
   // =========================================================
   // FREELANCE PROJECTS
-  // =========================================================
-  // Kept empty because the original projects were not yours.
-  // Add real client work here later.
   // =========================================================
 
   freelanceProjects: [] as FreelanceProject[],
@@ -189,284 +180,82 @@ experience: [
   // PROJECTS
   // =========================================================
 
+  projects: [
+    {
+      title: "UnitedAir AI",
 
-projects: [
-  {
-    title: "LinksHub",
+      blurb:
+        "An AI-powered flight-booking assistant built with Java 21, Spring Boot, Spring AI, Azure OpenAI, MariaDB Vector Search, and React that answers policy questions and automates booking workflows.",
 
-    blurb:
-      "An AI-powered developer portfolio and link-in-bio platform with GitHub project import, click analytics, QR sharing, and a RAG-based assistant that answers questions about a developer's public projects.",
+      story:
+        "UnitedAir AI is a full-stack flight-booking assistant engineered with Spring Boot, Spring AI, and Azure OpenAI to answer complex airline policy questions grounded across more than 8 knowledge-base documents.\n\nIt features a complete Retrieval-Augmented Generation (RAG) pipeline handling document ingestion, vector embeddings, and MariaDB vector search with a configurable 0.50 similarity threshold for accurate policy retrieval and cited answers.\n\nBeyond Q&A, the system integrates 4 autonomous agent tools for live flight search, booking management, check-in status lookups, and support escalation, backed by conversational memory for the last 10 turns, UUID-based sessions, and a 30-minute session timeout.",
 
-    story:
-      "LinksHub goes beyond a Linktree alternative: it combines profile links, GitHub integration, project showcasing, analytics, and an AI assistant in one place. Developers get a public profile with custom themes, AI-generated bios (Gemini, with selectable tones), drag-and-drop link management, soft delete and restore, Linktree import, automatic link categorization, preview metadata, click tracking, and QR code sharing.\n\nThe AI side is built on Retrieval-Augmented Generation. Developers connect GitHub via OAuth and import repositories; Gemini generates structured project summaries, which are chunked, embedded with gemini-embedding-001, and stored in MongoDB Atlas Vector Search. Visitors can ask questions on a profile, and a LangGraph workflow retrieves only that developer's public project knowledge before Gemini generates a grounded answer along with related projects.\n\nThe stack is a React 19 and Vite frontend with TanStack Query, and a modular Express and Node.js backend with JWT authentication in HTTP-only cookies, Google OAuth, request validation, and rate limiting.",
+      stack: [
+        "Java 21",
+        "Spring Boot",
+        "Spring AI",
+        "Azure OpenAI",
+        "RAG",
+        "MariaDB",
+        "React",
+        "REST APIs",
+      ],
 
-    stack: [
-      "React",
-      "Tailwind CSS",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "MongoDB Atlas Vector Search",
-      "LangChain",
-      "LangGraph",
-      "Gemini API",
-      "GitHub OAuth",
-      "Google OAuth",
-      "Cloudinary",
-      "JWT",
-      "Docker",
-    ],
+      year: "2026",
 
-    year: "2026",
+      links: {
+        source: "https://github.com/krishnareddy756",
+      },
 
-    links: {
-      live: "https://linkshub-np0r.onrender.com/",
-      source: "https://github.com/harshit403-pixel/LinksHub",
+      featured: true,
+
+      image: "/project-images/voice-rag.webp",
+
+      categories: [
+        "Fullstack",
+        "Backend",
+      ],
     },
 
-    featured: true,
+    {
+      title: "SigmaGPT",
 
-    image: "/project-images/linkshub.webp",
+      blurb:
+        "A full-stack RAG AI chatbot built with GPT-4, LangChain, FAISS vector search, React, and Express.js for answering questions over web data and uploaded PDF/DOCX documents.",
 
-    categories: [
-      "Fullstack",
-      "Frontend",
-    ],
-  },
+      story:
+        "SigmaGPT is a full-stack AI assistant combining GPT-4, LangChain, and Retrieval-Augmented Generation (RAG) to deliver accurate, document-grounded answers from both live web data and user-uploaded PDF/DOCX files.\n\nThe backend implements automated document parsing, text chunking, vector embeddings, and FAISS vector search to retrieve relevant context before streaming responses. The React frontend and Express.js backend support real-time streaming chat and are deployed across Vercel and Render.\n\nTo ensure reliability, the repository is equipped with a GitHub Actions CI pipeline that runs automated dependency installation and build verification checks on every pull request and push to the main branch.",
 
-  {
-    title: "Bidding Wars",
+      stack: [
+        "React",
+        "Express.js",
+        "Node.js",
+        "GPT-4",
+        "LangChain",
+        "RAG",
+        "FAISS",
+        "GitHub Actions",
+        "Vercel",
+        "Render",
+      ],
 
-    blurb:
-      "A real-time online auction platform where users create auctions, bid live over WebSockets, chat in auction rooms, and pay securely, built with the MERN stack and TypeScript.",
+      year: "2026",
 
-    story:
-      "Bidding Wars is a full-stack auction marketplace where every bid is synchronized instantly across all connected users using Socket.IO instead of API polling. Each auction runs in its own Socket.IO room; bids are validated on the server (auction active, amount above the current highest bid, increment rules) before being saved and broadcast.\n\nUsers can create, edit, and delete auctions with image uploads, browse the marketplace as guests, join live auction rooms with real-time chat, and track bid history. The platform includes JWT authentication with refresh tokens, Google OAuth, email verification and OTP-based password reset (via Brevo), payment order creation and verification, and a dashboard showing active auctions, won auctions, and activity.\n\nThe frontend uses React 19, TypeScript, Redux Toolkit for global state, and TanStack Query for server state. The backend is a modular Express 5 and TypeScript API with Zod validation, Pino logging, Swagger documentation, and Docker support. Built together with Bhavya Dhanwani.",
+      links: {
+        source: "https://github.com/krishnareddy756",
+      },
 
-    stack: [
-      "React",
-      "TypeScript",
-      "Redux Toolkit",
-      "TanStack Query",
-      "Tailwind CSS",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "Socket.IO",
-      "Zod",
-      "JWT",
-      "Google OAuth",
-      "ImageKit",
-      "Docker",
-    ],
+      featured: true,
 
-    year: "2026",
+      image: "/project-images/linkshub.webp",
 
-    links: {
-      live: "https://bidding-wars-skkn.onrender.com/",
-      source: "https://github.com/harshit403-pixel/Bidding-Wars",
+      categories: [
+        "Fullstack",
+        "Backend",
+        "Frontend",
+      ],
     },
-
-    featured: true,
-
-    image: "/project-images/bidding-wars.webp",
-    
-
-    categories: [
-      "Fullstack",
-      "Backend",
-    ],
-  },
-
-  {
-    title: "Voice RAG",
-
-    blurb:
-      "A multilingual, voice-enabled RAG search engine that turns spoken questions into streamed answers using Sarvam AI speech-to-text, FAISS vector search, and Mistral AI.",
-
-    story:
-      "Voice RAG is a complete voice-to-answer pipeline built for the HHGoa RAG challenge. A user speaks in their own language; Sarvam AI transcribes the audio (saaras:v3) and translates the query to English (mayura:v1). The query passes through input guardrails, is embedded with Mistral (mistral-embed, 1024 dimensions), and is searched against a FAISS HNSW index. Matching chunks are looked up in a SQLite metadata database, checked by a grounding guardrail, and passed to Mistral Large through LangChain, which streams the answer back to the UI over Server-Sent Events in the user's language.\n\nOn the indexing side, passages are chunked (RecursiveCharacterTextSplitter, 700 characters with 100 overlap for long passages), aligned to English, embedded, and stored alongside translations in 12 languages. The server warms its FAISS and SQLite caches on boot, and a sweep benchmark over 97,941 Hindi queries measured P50 retrieval latency of about 0.83 ms (P100 about 69.6 ms) against a 200 ms budget.\n\nThe React frontend includes a voice orb, source cards, and a live execution console that shows each pipeline step with its latency. The project is containerized with a multi-stage Dockerfile and deployed on Render.",
-
-    stack: [
-      "React",
-      "Node.js",
-      "Express.js",
-      "TypeScript",
-      "LangChain",
-      "Mistral AI",
-      "Sarvam AI",
-      "FAISS",
-      "SQLite",
-      "RAG",
-      "Speech-to-Text",
-      "Server-Sent Events",
-      "Docker",
-    ],
-
-    year: "2026",
-
-    links: {
-      live: "https://hhgoa-rag-xlt3.onrender.com/",
-      source: "https://github.com/harshit403-pixel/HHGoa-RAG",
-    },
-
-    featured: true,
-
-    image: "/project-images/voice-rag.webp",
-
-    categories: [
-      "Fullstack",
-      "Backend",
-    ],
-  },
-
-  {
-    title: "RIP VS Code",
-
-    blurb:
-      "A team-built real-time collaborative coding platform with instant room creation, room-code invites, host and guest roles, and Monaco editor integration.",
-
-    story:
-      "RIPvscode is a collaborative coding platform where users create coding rooms instantly and invite teammates with a unique room code. It supports signup and login with JWT access tokens and refresh token rotation, session management, protected routes, host and guest roles, participant management (including kicking participants and closing rooms), and Socket.IO-based online participant tracking.\n\nThe frontend is built with Next.js and React, with GSAP animations, page transitions, and a Monaco Editor integration. The backend follows a Route, Controller, Service, and Repository (DAO) layering on Express and MongoDB, with Zod and Express Validator for validation and Pino for logging.\n\nBuilt as a three-person team project; my part was the backend, covering authentication and room management. Shared editing, cursor sync, and code execution are listed as planned next steps.",
-
-    stack: [
-      "Next.js",
-      "React",
-      "Tailwind CSS",
-      "Redux Toolkit",
-      "GSAP",
-      "Monaco Editor",
-      "Socket.IO",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "JWT",
-    ],
-
-    year: "2026",
-
-    links: {
-      source: "https://github.com/harshit403-pixel/RipVscode",
-      live: "https://rip-vscode.vercel.app/",
-    },
-
-    featured: true,
-
-    image: "/project-images/rip-vscode.webp",
-
-    categories: [
-      "Fullstack",
-      "Frontend",
-    ],
-  },
-
-  {
-    title: "DevHub",
-
-    blurb:
-      "A full-stack developer social platform for sharing portfolios, projects, and technical blogs, built during a mini hackathon sprint.",
-
-    story:
-      "DevHub is a MERN-stack social platform where developers create profiles, showcase projects, publish technical blogs, and discover each other. Profiles support profile and cover image uploads, bios, and skills. Developers can post projects with thumbnails, tech stack tags, and GitHub and live links, like projects, and open dynamic project detail pages.\n\nAn Explore section lets visitors search developers and projects and filter by tech stack. Authentication uses JWT with bcrypt password hashing and protected routes, and media is handled with Multer and Cloudinary. The interface uses glassmorphism styling, GSAP animations, and smooth transitions, and is fully responsive.\n\nThe frontend is deployed on Vercel and the backend on Render. Built during a Mini Hackathon Sprint.",
-
-    stack: [
-      "React",
-      "Tailwind CSS",
-      "GSAP",
-      "React Router",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "Cloudinary",
-      "JWT",
-    ],
-
-    year: "2026",
-
-    links: {
-      source: "https://github.com/harshit403-pixel/DevHub",
-      live: "https://devhub-lemon.vercel.app/",
-    },
-
-    featured: true,
-
-    image: "/project-images/devhub.webp",
-
-    categories: [
-      "Fullstack",
-      "Frontend",
-    ],
-  },
-
-  {
-    title: "Slush",
-
-    blurb:
-      "A polished, responsive UI project focused on clean visual design and smooth animations.",
-
-    story:
-      "Slush is a frontend-focused UI project built with HTML, CSS, and JavaScript, with GSAP and Framer Motion powering its animations and transitions. It emphasizes a clean, modern look, responsive layouts, and smooth interactions.",
-
-    stack: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "GSAP",
-      "Framer Motion",
-    ],
-
-    year: "2026",
-
-    links: {
-      live: "https://slush-xi.vercel.app/",
-    },
-
-    featured: false,
-
-    image: "/project-images/slush.webp",
-
-    categories: [
-      "Frontend",
-    ],
-  },
-
-  {
-    title: "DeployIt",
-
-    blurb:
-      "An in-progress DevOps project exploring a multi-service architecture deployed with Docker and Kubernetes.",
-
-    story:
-      "DeployIt is an ongoing project built around containerized, multi-service deployment. The repository is split into separate services (auth, project, sync, AI, and a file server) alongside a Next.js boilerplate and a dedicated Kubernetes configuration folder.\n\nThe project focuses on understanding how applications move from local development into containerized and orchestrated environments, including debugging image pulls, services, networking, Redis configuration, and ingress routing.",
-
-    stack: [
-      "Docker",
-      "Kubernetes",
-      "Ingress",
-      "Redis",
-      "Node.js",
-      "Express.js",
-      "Next.js",
-    ],
-
-    year: "2026",
-
-    links: {
-      source: "https://github.com/harshit403-pixel/DeployIt",
-    },
-
-    featured: false,
-
-    image: "/project-images/deployit.webp",
-
-    categories: [
-      "Backend",
-      "Fullstack",
-    ],
-  },
-] as Project[],
-
-
+  ] as Project[],
 
   // =========================================================
   // SKILLS
@@ -474,61 +263,62 @@ projects: [
 
   skills: [
     // Languages
+    "Java",
+    "Python",
     "JavaScript",
     "TypeScript",
-    "C++",
+    "SQL",
+    "Bash",
 
     // Frontend
     "React",
-    "Next.js",
-    "Tailwind CSS",
-    "GSAP",
-    "Framer Motion",
+    "Redux",
+    "HTML",
+    "CSS",
+    "Bootstrap",
 
-    // Backend
+    // Backend & Messaging
+    "Spring Boot",
+    "Spring AI",
     "Node.js",
     "Express.js",
     "REST APIs",
-    "Socket.IO",
+    "RabbitMQ",
 
-    // Database
+    // Databases
+    "MySQL",
+    "MariaDB",
     "MongoDB",
-    "Mongoose",
 
-    // Authentication
-    "JWT",
-    "Passport",
-    "Google OAuth",
-
-    // DevOps / Cloud
-    "Docker",
+    // Cloud & DevOps
     "AWS",
+    "Docker",
     "Git",
     "GitHub",
-    "Vercel",
+    "GitHub Actions",
+    "CI/CD",
+    "Linux",
 
-    // AI
-    "OpenAI API",
-    "Gemini API",
+    // AI & Agentic Tools
+    "Azure OpenAI",
+    "GPT-4",
     "LangChain",
-    "LangGraph",
-    "Mistral AI",
-    "AI Agents",
     "RAG",
+    "FAISS",
+    "Claude Code",
+    "Devin",
+    "GitHub Copilot",
+    "Kiro",
   ],
 
   // =========================================================
   // WRITING
-  // =========================================================
-  // Empty until you have your own articles.
   // =========================================================
 
   writing: [] as Post[],
 
   // =========================================================
   // OPEN SOURCE
-  // =========================================================
-  // Empty until genuine contributions are added.
   // =========================================================
 
   openSourceContributions: [] as OpenSourceContribution[],
@@ -538,7 +328,7 @@ projects: [
   // =========================================================
 
   github: {
-    username: "harshit403-pixel",
+    username: "krishnareddy756",
 
     contributionsLastYear: "500+",
   },
@@ -547,8 +337,7 @@ projects: [
   // FOOTER
   // =========================================================
 
-  footerNote: "Built by Harshit Raghuwanshi",
+  footerNote: "Built by Sai Krishna Reddy",
 } as const;
 
 export type Site = typeof site;
-

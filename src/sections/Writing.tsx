@@ -16,16 +16,18 @@ export function Writing({ limit }: { limit?: number }) {
       <SectionHeader
         title="Writing"
         aside={
-          <a
-            href={(site.socials as any).medium}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-1.5 font-mono text-[11px] text-[var(--soft)] hover:text-[var(--fg)] transition-colors group/header"
-          >
-            <MediumIcon className="size-3.5" />
-            <span className="hidden sm:inline">https://medium.com/@harshuraghu7999</span>
-            <ArrowUpRight className="size-3 text-[var(--soft)] group-hover/header:translate-x-0.5 group-hover/header:-translate-y-0.5 transition-transform" />
-          </a>
+          site.socials.medium ? (
+            <a
+              href={site.socials.medium}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1.5 font-mono text-[11px] text-[var(--soft)] hover:text-[var(--fg)] transition-colors group/header"
+            >
+              <MediumIcon className="size-3.5" />
+              <span className="hidden sm:inline">{site.socials.medium}</span>
+              <ArrowUpRight className="size-3 text-[var(--soft)] group-hover/header:translate-x-0.5 group-hover/header:-translate-y-0.5 transition-transform" />
+            </a>
+          ) : undefined
         }
       />
       <Shell>

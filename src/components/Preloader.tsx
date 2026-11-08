@@ -318,7 +318,7 @@ export function PortfolioPreloader({
             <div className="pl-guide-v" style={{ left: col.r }} />
           </>
         )}
-        <span className="pl-note" style={{ left: 18, bottom: 16 }}>sheet 01 · harshit · setting out</span>
+        <span className="pl-note" style={{ left: 18, bottom: 16 }}>sheet 01 · sai krishna · setting out</span>
         <span className="pl-note" style={{ right: 18, bottom: 16 }}>issue 01 · {Math.round(col ? col.r - col.l : 0)}px column</span>
 
         {items.map((it, i) => {
