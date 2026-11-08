@@ -52,6 +52,7 @@ const SKILL_ICONS: Record<string, string> = {
 
   AWS: "logos:aws",
   Docker: "logos:docker-icon",
+  Jenkins: "logos:jenkins",
   Git: "logos:git-icon",
   GitHub: "logos:github-icon",
   "GitHub Actions": "logos:github-actions",
@@ -122,6 +123,7 @@ const skillCategories: Record<string, string[]> = {
   "DevOps & Cloud": [
     "AWS",
     "Docker",
+    "Jenkins",
     "Git",
     "GitHub",
     "GitHub Actions",

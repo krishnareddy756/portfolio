@@ -293,6 +293,7 @@ export const site = {
     // Cloud & DevOps
     "AWS",
     "Docker",
+    "Jenkins",
     "Git",
     "GitHub",
     "GitHub Actions",
