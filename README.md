@@ -1,146 +1,150 @@
-# Harshit Raghuwanshi — Portfolio
+# Sai Krishna Reddy — Portfolio
 
-A high-performance, responsive, and aesthetically premium personal portfolio built with React, Vite, Tailwind CSS, and TypeScript. Designed with a minimalist retro-terminal aesthetic combined with modern typography, interactive animations, and a structured grid-based layout.
+A high-performance, responsive, and aesthetically crafted personal portfolio built with React 18, Vite 6, Tailwind CSS, and TypeScript. Designed with a minimalist retro-terminal aesthetic combined with modern typography, interactive animations, and a structured grid-based layout.
+
+🌐 **Live:** [https://www.saikrishnareddy.dev](https://www.saikrishnareddy.dev)  
+💼 **LinkedIn:** [sai-krishna-reddy-devloper](https://www.linkedin.com/in/sai-krishna-reddy-devloper/)  
+💻 **GitHub:** [@krishnareddy756](https://github.com/krishnareddy756)  
+⚡ **LeetCode:** [@krishnareddy_](https://leetcode.com/u/krishnareddy_/)  
+📄 **Resume:** [Google Drive](https://drive.google.com/file/d/1TjFeERb0bQjEh2RzdtrKPgVG77sOQ9JF/view?usp=sharing)
+
+---
 
 ## Tech Stack
 
 - **Core & Routing:** React 18 & React Router v6
 - **Build Tool:** Vite 6
-- **Styling:** Tailwind CSS with custom premium typography
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS with custom Onyx retro-terminal theme & typography
 - **Animations:** Framer Motion for fluid transitions, interactive hover effects, and layout animations
-- **Analytics:** @vercel/analytics for web traffic insights
 - **Icons:** @iconify/react & lucide-react
-- **Backend & APIs:** Node.js, Express.js, REST APIs
-- **Database:** MongoDB & Mongoose
-- **Authentication:** JWT & Google OAuth
-- **AI:** OpenAI API, Gemini API, LangChain, LangGraph, Mistral AI & RAG
-- **DevOps:** Docker, AWS, Git, GitHub & Vercel
+- **Backend & APIs:** Java 21, Spring Boot, Spring AI, Node.js, Express.js, REST APIs, RabbitMQ
+- **Databases:** MySQL, MariaDB, MongoDB
+- **Cloud & DevOps:** AWS, Docker, Jenkins, Git, GitHub Actions, Linux
+- **AI & LLM Tools:** Azure OpenAI, GPT-4, LangChain, RAG, FAISS, Claude Code, Devin, GitHub Copilot
+
+---
 
 ## Features
 
 - **Retro Grid Portfolio Design:** Minimalist grid-based interface with typography-focused layouts, subtle borders, animations, and responsive design.
+- **Search Command Palette (`Ctrl/Cmd + K`):** Keyboard-accessible command menu for instant navigation across projects, certifications, external links, and resume download.
+- **Certifications & Education Page:** Comprehensive showcase of official cloud accreditations (AWS, MongoDB, Oracle, Claude) and academic degrees.
+- **Filterable Tech Stack:** Interactive technology matrix categorizing Languages, Frontend, Backend, Databases, DevOps & Cloud, and AI Engineering with official icons.
+- **Project Showcase:** Highlights full-stack applications with architecture breakdowns, technology badges, and source links.
+- **Interactive GitHub Matrix:** Heatmap reflecting developer commits and engineering momentum.
+- **Contact & Social Connect:** Direct links to GitHub, LinkedIn, LeetCode, email, and resume.
 
-- **Interactive Profile Section:** Personalized profile presentation with interactive elements and smooth Framer Motion animations.
-
-- **Search Command Palette:** Keyboard-accessible command menu with shortcuts for navigating portfolio sections and accessing external links.
-
-- **Interactive GitHub Contributions Matrix:** Fetches GitHub contribution data and displays it as a responsive contribution heatmap.
-
-- **Animated Tech Stack:** Filterable technology section with categories for Languages, Frontend, Backend, Databases, DevOps & Cloud, and AI.
-
-- **Project Showcase:** Dedicated project section highlighting full-stack, frontend, AI, and DevOps projects with technology stacks and project links.
-
-- **Experience Section:** Displays professional experience including internship and mentoring roles with animated timeline-style presentation.
-
-- **Responsive Navigation:** Smooth desktop and mobile navigation with section-based scrolling and animated interactions.
-
-- **Visitor Counter:** Tracks portfolio visits using a lightweight visitor-counting system.
-
-- **Smooth Animations:** Framer Motion animations throughout the interface for page transitions, interactive elements, layout changes, and hover states.
+---
 
 ## Featured Projects
 
-### LinksHub
+### UnitedAir AI
+*AI-Powered Flight Booking & Real-Time Airfare Assistant*
 
-A full-stack developer profile and link management platform built with the MERN stack.
+Full-stack flight discovery and booking platform featuring an intelligent flight assistant with conversational search and smart price tracking.
 
-**Tech:** React, Vite, TanStack Query, Node.js, Express.js, MongoDB, Cloudinary, Gemini API
+- **Frontend:** React, Tailwind CSS, Redux Toolkit, Lucide Icons
+- **Backend:** Spring Boot, Spring AI, REST APIs, RabbitMQ, MySQL
+- **AI & Data:** OpenAI GPT-4 API, Prompt Engineering, RAG Pipeline
+- **DevOps:** Docker, AWS ECS, GitHub Actions CI/CD
+- **Key Features:**
+  - Conversational flight search and natural language queries using Spring AI
+  - Real-time seat reservation with distributed lock mechanisms to avoid double-booking
+  - Asynchronous email notifications powered by RabbitMQ message queues
+  - JWT role-based access control and secure checkout flow
 
-**Features:**
-- JWT authentication with HTTP-only cookies
-- Profile settings
-- AI bio generation
-- QR code profile sharing
-- Public profiles
-- Link analytics
-- Drag-and-drop link management
-- Soft delete and restore
-- Link preview metadata
-- Linktree import
+### SigmaGPT
+*Intelligent Document Q&A & Research Assistant*
 
-**Live:** https://linkshub-np0r.onrender.com/
+Enterprise-grade generative AI assistant enabling users to upload documents (PDFs, docs) and conduct context-grounded natural language Q&A.
 
-**GitHub:** https://github.com/harshit403-pixel/LinksHub
+- **Frontend:** React, TypeScript, Tailwind CSS, Framer Motion
+- **Backend:** Node.js, Express.js, LangChain, FAISS
+- **AI & LLM:** Azure OpenAI Service, RAG Architecture, Vector Embeddings
+- **Database:** MongoDB for chat history, metadata, and user sessions
+- **Key Features:**
+  - RAG pipeline with chunking, FAISS vector indexing, and low-latency semantic retrieval
+  - Streaming LLM responses via Server-Sent Events (SSE)
+  - Multi-document session management and conversation export
 
-### LinksUp
-
-An AI-powered platform that helps developers make their GitHub projects easier for recruiters to understand.
-
-Developers can import GitHub repositories and use AI-powered embeddings and vector search to generate meaningful project summaries beyond the limited number of projects typically shown on a resume.
-
-**Tech:** React, Node.js, Express.js, MongoDB, LangChain, LangGraph, Gemini API, Vector Search
-
-### DeployIt
-
-A deployment and infrastructure project focused on containerized applications and Kubernetes-based deployment workflows.
-
-**Tech:** Docker, Docker Compose, Kubernetes, Ingress, Redis, Node.js
-
-**Status:** In Progress
-
-### AI FAQ Generator
-
-An AI-powered tool that converts website or product information into structured FAQ content.
-
-Users provide information about a website or product and the application generates FAQ questions and answers that are presented through an interactive accordion interface.
-
-**Tech:** React, Vite, Node.js, Express.js, Gemini API
-
-### Voice RAG
-
-A voice-enabled Retrieval-Augmented Generation system combining speech recognition, vector retrieval, and AI-generated responses.
-
-**Pipeline:**
-
-Voice Input → Speech-to-Text → Chunking → Vector Retrieval → AI Response
-
-**Tech:** React, GSAP, Framer Motion, LangChain, Mistral AI, Vector Database
+---
 
 ## Experience
 
-### Ethar AI
-**Post-LLM Training Intern**
+### Infosys
+**Specialist Programmer L1 — Java Full Stack Developer Trainee**  
+*June 2026 – Present | Mysuru, India*
 
-April 2026 – May 2026
+- Undergoing intensive enterprise engineering training on Java 21, Spring Boot, microservices architecture, and React.js.
+- Designing resilient REST APIs, relational schemas with MySQL/MariaDB, and enterprise message broker workflows using RabbitMQ.
+- Building cloud-native deployment pipelines with Docker, Jenkins, AWS, and modern CI/CD practices.
 
-Worked on post-LLM training workflows and AI-related tasks.
+---
 
-### Not Your College
-**Web Developer Mentor**
+## Certifications
 
-September 2026 – Present
+- **AWS Certified Cloud Practitioner (CCP)** — Amazon Web Services (AWS)
+- **MongoDB Database Administrator** — MongoDB University
+- **Oracle Cloud Infrastructure 2024 Generative AI Professional** — Oracle
+- **Claude Certified Developer - Foundations** — Anthropic
 
-Mentoring developers and helping with web development concepts, projects, and implementation.
+---
 
-## Achievements
+## Education
 
-- **NamasteDev Hackathon 2026:** Top 30% among 1000+ participants
-- **KBG Hackathon 2026:** Top 30 teams among 1000+ participants; presented at IIT Mandi
-- **Smart India Hackathon:** Led a team of 5 and advanced to Round 2
+- **Vellore Institute of Technology, Amaravathi**  
+  *B.Tech in Computer Science and Engineering* (2022 – 2026) | **CGPA: 8.68**
+- **Shastra Junior College**  
+  *Intermediate (MPC)* (2020 – 2022) | **Percentage: 95.6%**
+- **Jai Bharath High School**  
+  *Secondary School Certificate (SSC)* (2019 – 2020) | **Percentage: 99%**
 
-## Skills
+---
 
-### Languages
-JavaScript, TypeScript, C++
+## Skills Overview
 
-### Frontend
-React, Next.js, Tailwind CSS, GSAP, Framer Motion, Redux Toolkit, TanStack Query
+- **Languages:** Java, Python, JavaScript, TypeScript, SQL, Bash
+- **Frontend:** React, Redux, HTML5, CSS3, Tailwind CSS, Bootstrap
+- **Backend:** Spring Boot, Spring AI, Node.js, Express.js, REST APIs, Microservices, RabbitMQ
+- **Databases:** MySQL, MariaDB, MongoDB
+- **Cloud & DevOps:** AWS, Docker, Jenkins, Git, GitHub Actions, Linux
+- **AI & GenAI:** Azure OpenAI, GPT-4, LangChain, RAG, FAISS, Claude Code, Devin, GitHub Copilot, Kiro
 
-### Backend
-Node.js, Express.js, REST APIs, Socket.IO, JWT, Google OAuth
-
-### Databases
-MongoDB, Mongoose
-
-### DevOps & Cloud
-Docker, AWS, Vercel, Git, GitHub, Postman
-
-### AI
-OpenAI API, Gemini API, LangChain, LangGraph, Mistral AI, RAG
+---
 
 ## Getting Started
 
-First, install the dependencies:
+### Prerequisites
 
-```bash
-npm install
+- Node.js (v18+)
+- npm / pnpm / yarn
+
+### Installation & Local Development
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/krishnareddy756/portfolio.git
+   cd portfolio
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the local development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Build for production:
+   ```bash
+   npm run build
+   ```
+
+---
+
+## License
+
+This project is open-source and available under the [MIT License](LICENSE).
