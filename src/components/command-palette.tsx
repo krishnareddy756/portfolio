@@ -182,6 +182,36 @@ export function CommandPalette({
         handleClose();
       },
     },
+    ...(site.socials.leetcode
+      ? [
+          {
+            id: "action-leetcode",
+            category: "actions" as const,
+            title: "Open LeetCode Profile",
+            subtitle: site.socials.leetcode,
+            icon: <Globe size={16} />,
+            action: () => {
+              window.open(site.socials.leetcode, "_blank");
+              handleClose();
+            },
+          },
+        ]
+      : []),
+    ...(Boolean(site.socials.resume)
+      ? [
+          {
+            id: "action-resume",
+            category: "actions" as const,
+            title: "View Resume",
+            subtitle: "Google Drive PDF",
+            icon: <ExternalLink size={16} />,
+            action: () => {
+              window.open(site.socials.resume, "_blank");
+              handleClose();
+            },
+          },
+        ]
+      : []),
     ...(site.socials.medium
       ? [
           {

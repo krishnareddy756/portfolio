@@ -6,6 +6,7 @@ import {
   LinkedInIcon,
   MailIcon,
   FileIcon,
+  LeetCodeIcon,
 } from "./icons";
 
 const items = [
@@ -20,6 +21,12 @@ const items = [
     href: site.socials.linkedin,
     label: "LinkedIn",
     Icon: LinkedInIcon,
+  },
+  {
+    key: "leetcode",
+    href: site.socials.leetcode,
+    label: "LeetCode",
+    Icon: LeetCodeIcon,
   },
   {
     key: "email",
@@ -58,6 +65,13 @@ const hoverCardsData: Record<
     bio: "Specialist Programmer L1 at Infosys building Spring Boot, Spring AI, and React full-stack applications.",
     stats: ["Software Engineering", "Open to Opportunities"],
     bannerText: "connect • build • grow",
+  },
+
+  leetcode: {
+    handle: "u/krishnareddy_",
+    bio: "Competitive programming and algorithmic problem solving with Java & Python.",
+    stats: ["Data Structures", "Algorithms"],
+    bannerText: "code • practice • solve",
   },
 
   email: {

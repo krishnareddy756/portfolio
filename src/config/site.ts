@@ -142,11 +142,14 @@ export const site = {
     linkedin:
       "https://www.linkedin.com/in/sai-krishna-reddy-devloper/",
 
+    leetcode:
+      "https://leetcode.com/u/krishnareddy_/",
+
     email:
       "mailto:krishnareddy1604k@gmail.com",
 
     resume:
-      "#",
+      "https://drive.google.com/file/d/1TjFeERb0bQjEh2RzdtrKPgVG77sOQ9JF/view?usp=sharing",
 
     discord:
       "",
